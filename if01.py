@@ -15,6 +15,5 @@ def main(a,b,c):
         x=b
     elif c>x:
         x=c
-
     return x
-print(main(23,43,5))
+print(main(2,3,0))
