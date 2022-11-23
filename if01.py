@@ -11,9 +11,9 @@ def main(a,b,c):
     x=a
     if a>x:
         x=a
-    elif b>x:
+    if b>x:
         x=b
-    elif c>x:
+    if c>x:
         x=c
     return x
-print(main(2,3,0))
+print(main(-1,3,3))
