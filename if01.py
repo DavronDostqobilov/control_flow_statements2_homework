@@ -8,12 +8,14 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    x=a
-    if a>x:
-        x=a
-    if b>x:
-        x=b
-    if c>x:
-        x=c
-    return x
-print(main(-1,3,3))
+    if a>b:
+        if a>c:
+            return a
+        else:
+            return c
+    else:
+        if b>c:
+            return b
+        else:
+            return c 
+print(main(-3,3,5))
