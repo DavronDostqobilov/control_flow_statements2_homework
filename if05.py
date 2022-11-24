@@ -17,7 +17,7 @@ def main(n):
     v=0
     if v<x1:
         v=x1
-    if v<x2:
+    elif v<x2:
         v=x2
     elif v<x3:
         v=x3
@@ -26,4 +26,4 @@ def main(n):
     elif v<x5:
         v=x5
     return v
-print(main(56734))
+print(main(34577))
