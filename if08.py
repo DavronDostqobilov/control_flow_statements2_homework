@@ -23,7 +23,7 @@ def main(number):
     if number==4:
         return 'Thursday'
     if number==5:
-        return 'Fiday'
+        return 'Friday'
     if number==6:
         return 'Saturday'
     if number==7:
