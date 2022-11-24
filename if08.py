@@ -16,16 +16,16 @@ def main(number):
     """
     if number==1:
         return 'Monday'
-    elif number==2:
+    if number==2:
         return 'Tuesday'
-    elif number==3:
+    if number==3:
         return 'Wednesday'
-    elif number==4:
+    if number==4:
         return 'Thursday'
-    elif number==5:
+    if number==5:
         return 'Fiday'
-    elif number==6:
+    if number==6:
         return 'Saturday'
-    elif number==7:
+    if number==7:
         return 'Sunday'
 print(main(5))
