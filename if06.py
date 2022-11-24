@@ -14,21 +14,20 @@ def main(n):
     n=n//10
     x4=n%10
     x5=n//10
-    v=0
-    n=5
-    if v<x1:
-        v=x1
+    v=x1
+    n=1
+
     if v<x2:
         v=x2
-        n=n-1
+        n=2
     if v<x3:
         v=x3
-        n=n-1
+        n=3
     if v<x4:
         v=x4
-        n=n-1
+        n=4
     if v<x5:
         v=x5
-        n=n-1
+        n=5
     return n
-print(main(56371))
+print(main(41312))
