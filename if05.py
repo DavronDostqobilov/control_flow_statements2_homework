@@ -17,13 +17,13 @@ def main(n):
     v=0
     if v<x1:
         v=x1
-    elif v<x2:
+    if v<x2:
         v=x2
-    elif v<x3:
+    if v<x3:
         v=x3
-    elif v<x4:
+    if v<x4:
         v=x4
-    elif v<x5:
+    if v<x5:
         v=x5
     return v
 print(main(34577))
